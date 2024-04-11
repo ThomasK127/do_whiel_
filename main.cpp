@@ -8,6 +8,6 @@ int main() {
         zamiekanych *= 4;
         cout << "minelo minut: " << minuta << endl;
         cout << "liczba zamieszkanych osob: " << zamiekanych << endl;
-    }
+    } while (zamiekanych <= 1000000);
     return 0;
 }
